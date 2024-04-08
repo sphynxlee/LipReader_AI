@@ -1,11 +1,11 @@
 from moviepy.editor import VideoFileClip
 import speech_recognition as sr
 import os
-video_path = os.getcwd() + "/LipReader_AI/data_reprocess/input.mp4"
+video_path = os.getcwd() + "/data_reprocess/input.mp4"
 print('video_path:', video_path)
-audio_path = os.getcwd() + "/LipReader_AI/data_reprocess/audio.wav"
+audio_path = os.getcwd() + "/data_reprocess/audio.wav"
 print('audio_path:', audio_path)
-align_file_path = os.getcwd() + "/LipReader_AI/data_reprocess/align_file.txt"
+align_file_path = os.getcwd() + "/data_reprocess/align_file.txt"
 print('align_file_path:', align_file_path)
 
 def extract_audio_from_video(video_path, audio_path):
